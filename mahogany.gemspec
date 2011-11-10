@@ -5,11 +5,11 @@ require "mahogany/version"
 Gem::Specification.new do |s|
   s.name        = "mahogany"
   s.version     = Mahogany::VERSION
-  s.authors     = ["keymint1498@gmail.com"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["superhappyfuntime"]
+  s.email       = ["keymint1498@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Easy Redis in Ruby code}
+  s.description = %q{Easy Redis in Ruby code}
 
   s.rubyforge_project = "mahogany"
 
@@ -21,4 +21,6 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
+  
+  s.add_runtime_dependency "redis"
 end
